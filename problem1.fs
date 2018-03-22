@@ -1,9 +1,8 @@
-( 
-Issues: 
-1 - "Real world programs" should use heap memory instead as
-the stack depth could be too short. 
-2 - reduce_stack word reduces the entire stack
-)
+\ Issues: 
+\ 1 - "Real world programs" should use heap memory instead as
+\ the stack depth could be too short. 
+\ 2 - reduce_stack word reduces the entire stack
+
 : ismultiple mod 0= ;
 
 : ismultiple5or3 dup 5 ismultiple swap 3 ismultiple or ;
