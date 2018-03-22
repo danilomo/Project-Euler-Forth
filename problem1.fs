@@ -1,6 +1,6 @@
 \ Issues: 
 \ 1 - "Real world programs" should use heap memory instead as
-\ the stack depth could be too short. 
+\ the stack depth could be too short in some architectures.
 \ 2 - reduce_stack word reduces the entire stack
 
 : ismultiple mod 0= ;
